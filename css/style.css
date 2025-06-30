@@ -411,6 +411,10 @@ body {
 		margin-bottom: 10px;
 
 	}
+	img {
+		width: 105px;
+		margin-bottom: 10px;
+	}
 
 }
 
@@ -620,7 +624,7 @@ input::-ms-input-placeholder {
 
 	.key-feature-content {
 		&.width-sm {
-			width: 70%;
+			width: 78%;
 			margin: 0 auto;
 		}
 
@@ -1204,9 +1208,14 @@ input::-ms-input-placeholder {
 		}
 	}
 	.welcome-section {
-		height: 615px;
+		height: 570px;
+		h3 {
+			margin-top: 40px;
+		}
 	}
 	.key-features-wrapper {
+		padding-top: 40px;
+		padding-bottom: 40px;
 		& .key-feature-content {
 			h3 {
 				font-size: 20px;
@@ -1228,6 +1237,8 @@ input::-ms-input-placeholder {
 		}
 	}
 	.try-demo {
+		padding-top: 40px;
+		padding-bottom: 40px;
 		.btn-info {
 			padding: 12px 18px;
 		}
@@ -1267,6 +1278,8 @@ input::-ms-input-placeholder {
 		}
 	}
 	.contact-us {
+		padding-top: 40px;
+		padding-bottom: 40px;
 		h5 {
 			font-size: 20px;
 		}
@@ -1330,6 +1343,11 @@ input::-ms-input-placeholder {
 		}
 	}
  }
+ .total-counts {
+    img {
+        width: 55px;
+    }
+}
 }
  path.path-pin {
 	transform: rotate(-180deg);
