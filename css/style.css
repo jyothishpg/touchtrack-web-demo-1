@@ -1447,3 +1447,26 @@ input::-ms-input-placeholder {
 		text-decoration: none;
 	}
  }
+ .inside-menu {
+	display: none;
+ }
+ .outside-menu {
+
+ }
+ .deskview {
+
+ }
+ @media (max-width: 999px) {
+	.inside-menu{
+		display: flex;
+	}
+	.outside-menu {
+		display: none;
+	 }
+	 .deskview {
+		display: none !important;
+	 }
+	 .download-icons {
+		margin-top: 10px;
+	 }
+}
