@@ -1436,3 +1436,14 @@ input::-ms-input-placeholder {
  .test-div {
 	/* min-height: 100px; */
  }
+ .download-icons {
+	a {
+		background: rgb(50 78 151);
+		padding: 10px;
+		border: 1px solid rgba(255, 255, 255, 0.14);
+		border-radius: 7px;
+		margin-right: 12px; 
+		text-align: center;
+		text-decoration: none;
+	}
+ }
