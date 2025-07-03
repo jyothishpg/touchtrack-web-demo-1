@@ -1058,6 +1058,20 @@ input::-ms-input-placeholder {
     }
  }
 @media (max-width: 767px) {
+	.navbar-brand {
+		img {
+			width: 80px;
+		}
+	}
+	.top-navbar-banner {
+		.navbar {
+			padding: 10px 10px;
+		}
+		.navbar-toggler-icon {
+			width: 1rem;
+			height: 1rem;
+		}
+	  }
 	.login-btn {
 		display: none;
 	}
@@ -1081,7 +1095,16 @@ input::-ms-input-placeholder {
 		box-shadow: none;
 	}
 	.banner-carousel h1 {
-		font-size: 26px;
+		font-size: 22px;
+	}
+	.banner-carousel p {
+		font-size: 14px;
+	  }
+	  element {
+	}
+	.btn-learn-more {
+	  padding: 12px 24px;
+	  font-size: 14px;
 	}
 	.phone {
 		right: 50px;
@@ -1185,12 +1208,13 @@ input::-ms-input-placeholder {
 			color: rgba(45, 60, 168, 1);
 			font-weight: 700;
 			font-size: 20px;
-			line-height: 32px;
+			line-height: 24px;
 			letter-spacing: 0%;
 			margin-bottom: 10px;
 		}
 		h4 {
-			font-size: 24px;
+			font-size: 18px;
+			line-height: 24px;
 		}
 	}
 	.our-locations {
@@ -1212,6 +1236,9 @@ input::-ms-input-placeholder {
 		h3 {
 			margin-top: 40px;
 		}
+		p {
+			font-size: 16px;
+		}
 	}
 	.key-features-wrapper {
 		padding-top: 40px;
@@ -1221,7 +1248,8 @@ input::-ms-input-placeholder {
 				font-size: 20px;
 			}
 			h5 {
-				font-size: 16px;
+				font-size: 14px;
+				line-height: 24px;
 			}
 			&.width-sm {
 				width: 100%;
@@ -1231,11 +1259,16 @@ input::-ms-input-placeholder {
 		.feature-list {
 			margin-bottom: 0px;
 			h6 {
-				font-size: 16px;
+				font-size: 14px;
 				margin-bottom: 10px;
+			}
+			p {
+				font-size: 12px;
+				line-height: 20px;
 			}
 		}
 	}
+	
 	.try-demo {
 		padding-top: 40px;
 		padding-bottom: 40px;
@@ -1243,10 +1276,11 @@ input::-ms-input-placeholder {
 			padding: 12px 18px;
 		}
 		h3 {
-			font-size: 20px;
+			font-size: 18px;
 		}
 		p {
-			font-size: 16px;
+			font-size: 14px;
+			line-height: 24px;
 		}
 	}
 	.contact-image {
@@ -1348,6 +1382,7 @@ input::-ms-input-placeholder {
         width: 55px;
     }
 }
+
 }
  path.path-pin {
 	transform: rotate(-180deg);
@@ -1398,3 +1433,6 @@ input::-ms-input-placeholder {
 }
 
  /* Video-banner */
+ .test-div {
+	/* min-height: 100px; */
+ }
