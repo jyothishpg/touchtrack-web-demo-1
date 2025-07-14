@@ -36,10 +36,11 @@ body {
 }
 
 .login-btn {
-	border: 1px solid rgba(173, 140, 242, 1);
-	color: rgba(173, 140, 242, 1);
-	border-radius: 14px;
-	padding: 12px 50px;
+	/* border: 1px solid rgba(173, 140, 242, 1); */
+	background: rgba(56, 120, 224, 1);
+	color: #fff;
+	border-radius: 6px;
+    padding: 6px 24px;
 	text-decoration: none;
 	transition: all 1s ease-out;
 }
@@ -48,6 +49,7 @@ body {
 	color: rgba(55, 85, 204, 1);
 }
 .main-banner {
+	padding-top: 150px;
 	.banner-image {
 		width: 100%;
 	}
@@ -1438,13 +1440,13 @@ input::-ms-input-placeholder {
  }
  .download-icons {
 	a {
-		background: rgb(50 78 151);
-		padding: 10px;
-		border: 1px solid rgba(255, 255, 255, 0.14);
 		border-radius: 7px;
 		margin-right: 12px; 
 		text-align: center;
 		text-decoration: none;
+		/* img {
+			width: 24px;
+		} */
 	}
  }
  .inside-menu {
